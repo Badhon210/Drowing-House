@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.main{
+    display: flex;
+    position: relative;
+    height: 700px;
+    width: 80%;
+    background-color: rgb(33, 37, 37);
+    margin: 20px auto;
+}
+.top{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: azure;
+    border-radius: 60%;
+}
+.top1{
+    height: 80px;
+    width: 360px;
+    position: absolute;
+    top: 240px;
+    left: 170px;
+    background-color: azure;
+    border-radius: 60%;
+    z-index: 10;
+            
+}
+.midil{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    background-color: rgb(152, 67, 67);
+    z-index: 15;
+}
+.main-door{
+    width: 70px;
+    height: 150px;
+    background-color: antiquewhite;
+    position:absolute;
+    bottom: 5px;
+    right: 50px;
+    border: 4px solid green;
+    z-index: 16;
+}
+.d-left{
+    height: 140px;
+    width: 32px;
+    border: 3px solid rgb(156, 35, 35);
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+
+}
+
+.d-right{
+    height: 140px;
+    width: 32px;
+    border: 3px solid rgb(144, 22, 22);
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+}
+.d-bottam{
+    width: 62px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    border: 2px solid rgb(152, 67, 67);
+}
+.window{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    background-color: antiquewhite;
+    border: 4px solid green;
+    bottom: 50px;
+    left: 50px;
+
+   
+}
+.window-left-door{
+    height: 65px;
+    width: 27px;
+    position: absolute;
+    border: 2px solid red;
+
+}
+
+.l-design1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(238, 84, 120);
+    transform: rotate(40deg);
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    border: 1px solid blue;
+    z-index: 10;
+}
+.logo-left{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(107, 84, 238);
+    transform: rotate(40deg);
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    border: 1px solid blue;
+    z-index: 10;
+
+}
+.l-design2{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+    transform: rotate(40deg);
+    position: absolute;
+    left: 5px;
+    top: 40px;
+    border: 1px solid blue;
+}
+.window-right-door{
+    height: 65px;
+    width: 27px;
+    position: absolute;
+    border: 2px solid red;
+    right: 0px;
+}
+.r-design1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(238, 84, 120);
+    transform: rotate(-40deg);
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    border: 1px solid blue;
+    z-index: 10;
+}
+.logo-right{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(107, 84, 238);
+    transform: rotate(-40deg);
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    border: 1px solid blue;
+    z-index: 10;
+
+}
+.r-design2{
+    height: 10px;
+    width: 10px;
+    background-color: aquamarine;
+    position: absolute;
+    transform: rotate(-40deg);
+    right: 5px;
+    top: 40px;
+    border: 1px solid blue;
+}
+.border{
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    background-color: teal;
+    bottom: 0px;
+    z-index: 100;
+    
+}
+.moon{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: cyan;
+    top: 0px;
+    right: 100px;
+    z-index: 10;
+}
+.moon-Design{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(33, 37, 37);
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 15;
+    border-radius: 50%;
+}
+.down{
+    width: 320px;
+    height: 30px;
+    background-color: antiquewhite;
+    top: 550px;
+    left: 190px;
+    position: absolute;
+}
+.sree1{
+    width: 320px;
+    height: 14px;
+    background-color: rgb(99, 95, 90);
+    position: absolute;
+    border: 2px solid rgb(43, 226, 110);
+}
+.sree2{
+    width: 320px;
+    height: 14px;
+    background-color: rgb(99, 95, 90);
+    position: absolute;
+    bottom: 0px;
+    border: 2px solid rgb(19, 205, 133);
+}
+.tree{
+    height: 250px;
+    width: 30px;
+    background-color: darkolivegreen;
+    position: absolute;
+    bottom: 130px;
+    right: 180px
+}
+.tree-design{
+    width: 320px;
+    height: 250px;
+    position: absolute;
+    right: 40px;
+    top:110px;
+}
+.de1{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: green;
+    bottom: 0px;
+    right: 50px;
+    border-radius: 50%;
+}
+.de2{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: green;
+    bottom: 0px;
+    left: 50px;
+    border-radius: 50%;
+}
+.de3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+}
+.de4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: green;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50%;
+}
+.de5{
+     width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: green;
+    bottom: 70px;
+    left: 10px;
+    border-radius: 50%;
+}
+.de6{
+    
+    width: 120px;
+    height: 120px;
+     position: absolute;
+     background-color: green;
+     bottom: 70px;
+     right: 10px;
+     border-radius: 50%;
+   
+}
+.de7{
+    
+    width: 120px;
+    height: 120px;
+     position: absolute;
+     background-color: green;
+     top: 0px;
+     right: 70px;
+     border-radius: 50%;
+     z-index: 20;
+   
+}
+.de8{
+    
+    width: 120px;
+    height: 120px;
+     position: absolute;
+     background-color: green;
+     top: 0px;
+     left: 70px;
+     border-radius: 50%;
+   
+}
+.de9{
+    width: 120px;
+    height: 120px;
+     position: absolute;
+     background-color: green;
+     top: 60px;
+     left: 70px;
+     border-radius: 50%;
+
+}
+
+
+
